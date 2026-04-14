@@ -1,0 +1,13 @@
+PyQt5
+SpeechRecognition
+PyAudio
+sounddevice
+vosk
+edge-tts
+pygame
+pyttsx3
+pywhatkit
+psutil
+opencv-python
+ultralytics
+sentence-transformers

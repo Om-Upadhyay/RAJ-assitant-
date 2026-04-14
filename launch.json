@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run SAM",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/sam.py",
+      "console": "integratedTerminal",
+      "env": {
+        "LLAMA_MODEL_PATH": "C:\\models\\mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+        "LLAMA_CTX": "2048",
+        "LLAMA_THREADS": "6",
+        "LLAMA_GPU_LAYERS": "0"
+      }
+    }
+  ]
+}
